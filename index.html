@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="./assets/styles/style.css" />
+    <link rel="stylesheet" href="./assets/styles/reset.css" />
+    <title>Frontend Mentor | Browser extensions manager UI</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body class="dark-theme">
+    <div class="container">
+      <div class="extension">
+        <div class="logo">
+          <img src="./assets/images/logo.svg" />
+        </div>
+        <button class="switch-theme">
+          <img src="./assets/images/icon-sun.svg" />
+        </button>
+      </div>
+      <section class="head">
+        <h2 class="head-title">Extensions List</h2>
+        <ul class="head-list">
+          <li class="list-item active" data-status="all">all</li>
+          <li class="list-item" data-status="active">active</li>
+          <li class="list-item" data-status="inactive">inactive</li>
+        </ul>
+      </section>
+      <section class="extension-grid">
+        <div class="content">
+          <div class="top">
+            <div class="logo">
+              <img src="./assets/images/logo-devlens.svg" />
+            </div>
+            <div class="info">
+              <p class="name">DevLens</p>
+              <p class="desc">
+                Quickly inspect page layouts and visualize element boundaries.
+              </p>
+            </div>
+          </div>
+          <div class="bottom">
+            <button class="remove">remove</button>
+            <div class="toggle">
+              <label class="switch">
+                <input class="checkboxes" type="checkbox" />
+                <span class="slider round"></span>
+              </label>
+            </div>
+          </div>
+        </div>
+        <div class="content">
+          <div class="top">
+            <div class="logo">
+              <img src="./assets/images/logo-devlens.svg" />
+            </div>
+            <div class="info">
+              <p class="name">DevLens</p>
+              <p class="desc">
+                Quickly inspect page layouts and visualize element boundaries.
+              </p>
+            </div>
+          </div>
+          <div class="bottom">
+            <button class="remove">remove</button>
+            <div class="toggle">
+              <label class="switch">
+                <input class="checkboxes" type="checkbox" />
+                <span class="slider round"></span>
+              </label>
+            </div>
+          </div>
+        </div>
+        <div class="content">
+          <div class="top">
+            <div class="logo">
+              <img src="./assets/images/logo-devlens.svg" />
+            </div>
+            <div class="info">
+              <p class="name">DevLens</p>
+              <p class="desc">
+                Quickly inspect page layouts and visualize element boundaries.
+              </p>
+            </div>
+          </div>
+          <div class="bottom">
+            <button class="remove">remove</button>
+            <div class="toggle">
+              <label class="switch">
+                <input class="checkboxes" type="checkbox" />
+                <span class="slider round"></span>
+              </label>
+            </div>
+          </div>
+        </div>
+        <div class="content">
+          <div class="top">
+            <div class="logo">
+              <img src="./assets/images/logo-devlens.svg" />
+            </div>
+            <div class="info">
+              <p class="name">DevLens</p>
+              <p class="desc">
+                Quickly inspect page layouts and visualize element boundaries.
+              </p>
+            </div>
+          </div>
+          <div class="bottom">
+            <button class="remove">remove</button>
+            <div class="toggle">
+              <label class="switch">
+                <input class="checkboxes" type="checkbox" />
+                <span class="slider round"></span>
+              </label>
+            </div>
+          </div>
+        </div>
+        <div class="content">
+          <div class="top">
+            <div class="logo">
+              <img src="./assets/images/logo-devlens.svg" />
+            </div>
+            <div class="info">
+              <p class="name">DevLens</p>
+              <p class="desc">
+                Quickly inspect page layouts and visualize element boundaries.
+              </p>
+            </div>
+          </div>
+          <div class="bottom">
+            <button class="remove">remove</button>
+            <div class="toggle">
+              <label class="switch">
+                <input class="checkboxes" type="checkbox" />
+                <span class="slider round"></span>
+              </label>
+            </div>
+          </div>
+        </div>
+        <div class="content">
+          <div class="top">
+            <div class="logo">
+              <img src="./assets/images/logo-devlens.svg" />
+            </div>
+            <div class="info">
+              <p class="name">DevLens</p>
+              <p class="desc">
+                Quickly inspect page layouts and visualize element boundaries.
+              </p>
+            </div>
+          </div>
+          <div class="bottom">
+            <button class="remove">remove</button>
+            <div class="toggle">
+              <label class="switch">
+                <input class="checkboxes" type="checkbox" />
+                <span class="slider round"></span>
+              </label>
+            </div>
+          </div>
+        </div>
+        <div class="content">
+          <div class="top">
+            <div class="logo">
+              <img src="./assets/images/logo-devlens.svg" />
+            </div>
+            <div class="info">
+              <p class="name">DevLens</p>
+              <p class="desc">
+                Quickly inspect page layouts and visualize element boundaries.
+              </p>
+            </div>
+          </div>
+          <div class="bottom">
+            <button class="remove">remove</button>
+            <div class="toggle">
+              <label class="switch">
+                <input class="checkboxes" type="checkbox" />
+                <span class="slider round"></span>
+              </label>
+            </div>
+          </div>
+        </div>
+        <div class="content">
+          <div class="top">
+            <div class="logo">
+              <img src="./assets/images/logo-devlens.svg" />
+            </div>
+            <div class="info">
+              <p class="name">DevLens</p>
+              <p class="desc">
+                Quickly inspect page layouts and visualize element boundaries.
+              </p>
+            </div>
+          </div>
+          <div class="bottom">
+            <button class="remove">remove</button>
+            <div class="toggle">
+              <label class="switch">
+                <input class="checkboxes" type="checkbox" />
+                <span class="slider round"></span>
+              </label>
+            </div>
+          </div>
+        </div>
+        <div class="content">
+          <div class="top">
+            <div class="logo">
+              <img src="./assets/images/logo-devlens.svg" />
+            </div>
+            <div class="info">
+              <p class="name">DevLens</p>
+              <p class="desc">
+                Quickly inspect page layouts and visualize element boundaries.
+              </p>
+            </div>
+          </div>
+          <div class="bottom">
+            <button class="remove">remove</button>
+            <div class="toggle">
+              <label class="switch">
+                <input class="checkboxes" type="checkbox" />
+                <span class="slider round"></span>
+              </label>
+            </div>
+          </div>
+        </div>
+        <div class="content">
+          <div class="top">
+            <div class="logo">
+              <img src="./assets/images/logo-devlens.svg" />
+            </div>
+            <div class="info">
+              <p class="name">DevLens</p>
+              <p class="desc">
+                Quickly inspect page layouts and visualize element boundaries.
+              </p>
+            </div>
+          </div>
+          <div class="bottom">
+            <button class="remove">remove</button>
+            <div class="toggle">
+              <label class="switch">
+                <input class="checkboxes" type="checkbox" />
+                <span class="slider round"></span>
+              </label>
+            </div>
+          </div>
+        </div>
+        <div class="content">
+          <div class="top">
+            <div class="logo">
+              <img src="./assets/images/logo-devlens.svg" />
+            </div>
+            <div class="info">
+              <p class="name">DevLens</p>
+              <p class="desc">
+                Quickly inspect page layouts and visualize element boundaries.
+              </p>
+            </div>
+          </div>
+          <div class="bottom">
+            <button class="remove">remove</button>
+            <div class="toggle">
+              <label class="switch">
+                <input class="checkboxes" type="checkbox" checked />
+                <span class="slider round"></span>
+              </label>
+            </div>
+          </div>
+        </div>
+        <div class="content">
+          <div class="top">
+            <div class="logo">
+              <img src="./assets/images/logo-devlens.svg" />
+            </div>
+            <div class="info">
+              <p class="name">DevLens</p>
+              <p class="desc">
+                Quickly inspect page layouts and visualize element boundaries.
+              </p>
+            </div>
+          </div>
+          <div class="bottom">
+            <button class="remove">remove</button>
+            <div class="toggle">
+              <label class="switch">
+                <input class="checkboxes" type="checkbox" />
+                <span class="slider round"></span>
+              </label>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge">Frontend Mentor</a>.
+      Coded by <a href="#">Your Name Here</a>.
+    </div>
+    <script type="module" src="script.js"></script>
+  </body>
+</html>
