@@ -277,3 +277,7 @@ body {
   color: var(--txt);
   background-color: var(--red-700);
 }
+.attribution {
+  background: #ccc;
+  padding: 1rem;
+}
